@@ -3,13 +3,13 @@ import img from '@/assets/logo-el-cielo-resize.webp'
 </script>
 <template>
   <main class="min-h-dvh  max-w-md mx-auto bg-[#16181d] ">
-    <header>
+    <header class="py-4">
       <NuxtLink to="/" class="text-md font-bold">
         EL C1ELO <span class="text-neutral-400 font-semibold italic">SOCCER</span>
       </NuxtLink>
     </header>
     <div class="flex justify-center items-center">
-      <img :src="img" alt="logotipo del cielo" class="sombra object-cover animate-pulse"></img>
+      <img :src="img" alt="logotipo del cielo" class="sombra size-52 object-cover"></img>
     </div>
     <section class="flex flex-col items-center justify-center">
       <slot />
@@ -31,7 +31,7 @@ main {
 
 .sombra {
   filter: drop-shadow(
-    0 0 16px rgb(255, 255, 255)
+    0 0 12px rgb(255, 255, 255)
   );
 }
 </style>
