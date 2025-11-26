@@ -4,9 +4,7 @@
       <NuxtLink to="/" class="text-sm ">EL C1ELO <span class="text-neutral-400 font-semibold italic">SOCCER</span>
       </NuxtLink>
       <ul class="hidden lg:flex gap-4">
-        <li>
-          <NuxtLink to="/standings">Tabla de posiciones</NuxtLink>
-        </li>
+        
         <li>
           <NuxtLink to="/referees">Árbitros</NuxtLink>
         </li>
@@ -31,7 +29,6 @@
           <template #body>
             <Placeholder class="h-full" />
             <div class="flex flex-col gap-4">
-              <NuxtLink to="/standings">Tabla de posiciones</NuxtLink>
               <NuxtLink to="/referees">Árbitros</NuxtLink>
               <NuxtLink to="/teams">Equipos</NuxtLink>
               <NuxtLink to="/login">Inicia sesión</NuxtLink>
