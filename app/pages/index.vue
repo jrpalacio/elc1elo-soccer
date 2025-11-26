@@ -1,8 +1,14 @@
 <script setup lang="ts">
+import games from '@/data/games'
+  // custom layout 
+  definePageMeta({
+      layout: 'public-layout'
+  })
 </script>
 
 <template>
-  <h1>Home</h1>
+  <GameCarousel title="Jornada 8" :games="games"/>
+  <GameList title="+ Partidos de la Jornada 8" :games="games" />
 </template>
 
 <style>
